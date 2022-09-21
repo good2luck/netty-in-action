@@ -6,19 +6,23 @@
         <artifactId>netty-in-action</artifactId>
         <groupId>com.xudj</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chapter4</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>server2Ch4</module>
-    </modules>
+    <artifactId>chapter9</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
